@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hr-nav-top {
+    border: 2px solid #e7700d;
+    margin-bottom: 0;
+}
+
+.hr-nav-bottom {
+    border: 0.1rem inset #babfc5;
+}
+
+.navbar {
+    margin: 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 20px;
+}
+
+.nav-search-bar-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search-bar {
+    margin: 0;
+    width: 600px;
+    height: 30px;   
+    border: 1px solid rgb(186, 191, 197);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.navbar > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 15px;
+}
+
+.navbar > ul > li > a {
+    color: rgb(99, 107, 116);
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar > ul > li > a:hover {
+    background-color: #e3e6e8;
+    border: 1px solid #e3e6e8;
+    border-radius: 1000px;
+}
+
+.nav-right-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.login-button, .signup-button {
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.login-button {
+    color: rgb(27, 117, 208);
+    border: 1px solid rgb(27, 117, 208);
+    background-color: white;
+    margin-right: 10px;
+}
+
+.login-button:hover {
+    background-color: #d6e8fa;
+}
+
+.signup-button:hover {
+    background-color: #155ca2;
+}
+
+.signup-button {
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(27, 117, 208);
+}
